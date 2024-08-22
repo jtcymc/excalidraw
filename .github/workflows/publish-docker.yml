@@ -8,7 +8,7 @@ on:
 jobs:
   publish-docker:
     runs-on: ubuntu-latest
-
+    environment: docker # 这里指定了要使用的环境名称
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -22,4 +22,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: excalidraw/excalidraw:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/excalidraw:latest
