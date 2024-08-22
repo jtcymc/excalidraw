@@ -3,7 +3,7 @@ name: Publish Docker
 on:
   push:
     branches:
-      - release
+      - "font-cn"
 
 jobs:
   publish-docker:
