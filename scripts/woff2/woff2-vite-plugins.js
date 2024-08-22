@@ -15,7 +15,9 @@ module.exports.woff2BrowserPlugin = () => {
   return {
     name: "woff2BrowserPlugin",
     enforce: "pre",
-    config(_, { command }) {
+    config(_, {
+      command
+    }) {
       isDev = command === "serve";
     },
     resolveId(source) {
@@ -124,6 +126,48 @@ module.exports.woff2BrowserPlugin = () => {
         type="font/woff2"
         crossorigin="anonymous"
       />
+      <link
+        rel="preload"
+        href="/YunFengHanChanTi-2.ttf"
+        as="font"
+        type="font/ttf"
+        crossorigin="anonymous"
+      />
+      <link
+      rel="preload"
+      href="/HongLeiXingShuJianTi-2.otf"
+      as="font"
+      type="font/otf"
+      crossorigin="anonymous"
+    />
+    <link
+    rel="preload"
+    href="/Laura-Cursive.otf"
+    as="font"
+    type="font/otf"
+    crossorigin="anonymous"
+  />
+  <link
+  rel="preload"
+  href="/Muyao-Softbrush-2.ttf"
+  as="font"
+  type="font/ttf"
+  crossorigin="anonymous"
+  />
+  <link
+  rel="preload"
+  href="/nishiki-teki-2.ttf"
+  as="font"
+  type="font/ttf"
+  crossorigin="anonymous"
+  />
+  <link
+  rel="preload"
+  href="/ZhiMangXing-Regular.ttf"
+  as="font"
+  type="font/ttf"
+  crossorigin="anonymous"
+  />
     `,
         );
       }

@@ -32,6 +32,12 @@ import NunitoLatinExt from "https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BK
 import NunitoCyrilic from "https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDIkhdTA3j6zbXWjgevT5.woff2";
 import NunitoCyrilicExt from "https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDIkhdTk3j6zbXWjgevT5.woff2";
 import NunitoVietnamese from "https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDIkhdTs3j6zbXWjgevT5.woff2";
+import HongLeiXingShuJianTi from "./assets/HongLeiXingShuJianTi-2.otf";
+import YunFengHanChanTi from "./assets/YunFengHanChanTi-2.ttf";
+import LauraCursive from "./assets/Laura-Cursive.otf";
+import MuyaoSoftbrush from "./assets/Muyao-Softbrush-2.ttf";
+import NishikiTeki from "./assets/nishiki-teki-2.ttf";
+import ZhiMangXingRegular from "./assets/ZhiMangXing-Regular.ttf";
 
 export class Fonts {
   // it's ok to track fonts across multiple instances only once, so let's use
@@ -235,11 +241,27 @@ export class Fonts {
     _register("Cascadia", FONT_METADATA[FONT_FAMILY.Cascadia], {
       uri: Cascadia,
     });
-
     _register("Comic Shanns", FONT_METADATA[FONT_FAMILY["Comic Shanns"]], {
       uri: ComicShanns,
     });
-
+    _register("YunFengHanChanTi", FONT_METADATA[FONT_FAMILY.Excalifont], {
+      uri: YunFengHanChanTi,
+    });
+    _register("HongLeiXingShuJianTi", FONT_METADATA[FONT_FAMILY.Excalifont], {
+      uri: HongLeiXingShuJianTi,
+    });
+    _register("Laura-Cursive", FONT_METADATA[FONT_FAMILY.Excalifont], {
+      uri: LauraCursive,
+    });
+    _register("Muyao-Softbrush", FONT_METADATA[FONT_FAMILY.Excalifont], {
+      uri: MuyaoSoftbrush,
+    });
+    _register("nishiki-teki", FONT_METADATA[FONT_FAMILY.Excalifont], {
+      uri: NishikiTeki,
+    });
+    _register("ZhiMangXing-Regular", FONT_METADATA[FONT_FAMILY.Excalifont], {
+      uri: ZhiMangXingRegular,
+    });
     _register(
       "Lilita One",
       FONT_METADATA[FONT_FAMILY["Lilita One"]],

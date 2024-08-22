@@ -132,6 +132,12 @@ export const FONT_FAMILY = {
   "Lilita One": 7,
   "Comic Shanns": 8,
   "Liberation Sans": 9,
+  YunFengHanChanTi: 100,
+  HongLeiXingShuJianTi: 101,
+  "Laura-Cursive": 102,
+  "Muyao-Softbrush": 103,
+  "nishiki-teki": 104,
+  "ZhiMangXing-Regular": 105,
 };
 
 export const THEME = {

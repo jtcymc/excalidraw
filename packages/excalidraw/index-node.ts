@@ -56,7 +56,17 @@ const elements = [
 
 registerFont("./public/Virgil.woff2", { family: "Virgil" });
 registerFont("./public/Cascadia.woff2", { family: "Cascadia" });
-
+registerFont("./public/YunFengHanChanTi-2.ttf", { family: "YunFengHanChanTi" });
+registerFont("./public/HongLeiXingShuJianTi-2.otf", {
+  family: "HongLeiXingShuJianTi",
+});
+registerFont("./public/Laura-Cursive.otf", { family: "Laura-Cursive" });
+registerFont("./public/Muyao-Softbrush-2.ttf", { family: "Muyao-Softbrush" });
+registerFont("./public/nishiki-teki-2.ttf", { family: "nishiki-teki" });
+registerFont("./public/ZhiMangXing-Regular.ttf", {
+  family: "ZhiMangXing-Regular",
+});
+registerFont("./public/YunFengHanChanTi-2.ttf", { family: "YunFengHanChanTi" });
 const canvas = exportToCanvas(
   elements as any,
   {

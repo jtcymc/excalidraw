@@ -33,3 +33,39 @@
   style: normal;
   display: swap;
 }
+@font-face {
+  font-family: "YunFengHanChanTi";
+  src: url(./YunFengHanChanTi-2.ttf);
+  style: normal;
+  display: swap;
+}
+@font-face {
+  font-family: "HongLeiXingShuJianTi";
+  src: url(./HongLeiXingShuJianTi-2.otf);
+  style: normal;
+  display: swap;
+}
+@font-face {
+  font-family: "Laura-Cursive";
+  src: url(./Laura-Cursive.otf);
+  style: normal;
+  display: swap;
+}
+@font-face {
+  font-family: "Muyao-Softbrush";
+  src: url(./Muyao-Softbrush-2.ttf);
+  style: normal;
+  display: swap;
+}
+@font-face {
+  font-family: "nishiki-teki";
+  src: url(./nishiki-teki-2.ttf);
+  style: normal;
+  display: swap;
+}
+@font-face {
+  font-family: "ZhiMangXing-Regular";
+  src: url(./ZhiMangXing-Regular.ttf);
+  style: normal;
+  display: swap;
+}

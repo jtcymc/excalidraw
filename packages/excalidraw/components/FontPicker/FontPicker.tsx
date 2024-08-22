@@ -35,6 +35,42 @@ export const DEFAULT_FONTS = [
     text: t("labels.code"),
     testId: "font-family-code",
   },
+  {
+    value: FONT_FAMILY.YunFengHanChanTi,
+    icon: FreedrawIcon,
+    text: "云峰寒蝉体",
+    testId: "font-family-yunfeng",
+  },
+  {
+    value: FONT_FAMILY.HongLeiXingShuJianTi,
+    icon: FreedrawIcon,
+    text: "鸿雷行书简体",
+    testId: "font-family-honglei",
+  },
+  {
+    value: FONT_FAMILY["Laura-Cursive"],
+    icon: FreedrawIcon,
+    text: "劳拉手写体",
+    testId: "font-family-laura",
+  },
+  {
+    value: FONT_FAMILY["Muyao-Softbrush"],
+    icon: FreedrawIcon,
+    text: "沐瑶软笔手写体",
+    testId: "font-family-muyao",
+  },
+  {
+    value: FONT_FAMILY["nishiki-teki"],
+    icon: FreedrawIcon,
+    text: "马克笔手写",
+    testId: "font-family-nishiki",
+  },
+  {
+    value: FONT_FAMILY["ZhiMangXing-Regular"],
+    icon: FreedrawIcon,
+    text: "钟齐志莽行书",
+    testId: "font-family-zhimangxing",
+  },
 ];
 
 const defaultFontFamilies = new Set(DEFAULT_FONTS.map((x) => x.value));
