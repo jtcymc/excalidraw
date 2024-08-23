@@ -19,6 +19,7 @@ export default defineConfig({
   // We need to specify the envDir since now there are no
   //more located in parallel with the vite.config.ts file but in parent dir
   envDir: "../",
+  base: "./", // 使用相对路径
   build: {
     outDir: "build",
     rollupOptions: {
