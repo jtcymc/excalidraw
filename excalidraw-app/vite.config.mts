@@ -19,13 +19,13 @@ export default defineConfig({
   // We need to specify the envDir since now there are no
   //more located in parallel with the vite.config.ts file but in parent dir
   envDir: "../",
-  base: './', // 使用相对路径
+  // base: './', // 使用相对路径
   build: {
     outDir: "build",
     rollupOptions: {
       output: {
         assetFileNames(chunkInfo) {
-          if (chunkInfo?.name?.endsWith(".woff2") ||  chunkInfo?.name?.endsWith(".ttf") || chunkInfo?.name?.endsWith(".otf")) {
+          if (chunkInfo?.name?.endsWith(".woff2")) {
             // put on root so we are flexible about the CDN path
             return "[name]-[hash][extname]";
           }
