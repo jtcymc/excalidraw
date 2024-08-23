@@ -132,7 +132,14 @@ export class ExcalidrawFont implements Font {
         return "";
       }
 
-      return `format('${parts.pop()}')`;
+      // ttf is not a valid format, so we are converting it to truetype
+      let type = parts.pop();
+      if (type === "ttf") {
+        type = "truetype";
+      } else if (type === "otf") {
+        type = "opentype";
+      }
+      return `format('${type}')`;
     } catch (error) {
       return "";
     }
