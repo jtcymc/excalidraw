@@ -25,7 +25,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         assetFileNames(chunkInfo) {
-          if (chunkInfo?.name?.endsWith(".woff2")) {
+          if (chunkInfo?.name?.endsWith(".woff2") ||  chunkInfo?.name?.endsWith(".ttf") || chunkInfo?.name?.endsWith(".otf")) {
             // put on root so we are flexible about the CDN path
             return "[name]-[hash][extname]";
           }

@@ -35,37 +35,36 @@
 }
 @font-face {
   font-family: "YunFengHanChanTi";
-  src: url(./YunFengHanChanTi-2.ttf);
-  style: normal;
+  src: url(./YunFengHanChanTi-2.ttf) format("truetype");
   display: swap;
 }
 @font-face {
   font-family: "HongLeiXingShuJianTi";
-  src: url(./HongLeiXingShuJianTi-2.otf);
+  src: url(./HongLeiXingShuJianTi-2.otf) format("opentype");
   style: normal;
   display: swap;
 }
 @font-face {
   font-family: "Laura-Cursive";
-  src: url(./Laura-Cursive.otf);
+  src: url(./Laura-Cursive.otf) format("opentype");
   style: normal;
   display: swap;
 }
 @font-face {
   font-family: "Muyao-Softbrush";
-  src: url(./Muyao-Softbrush-2.ttf);
+  src: url(./Muyao-Softbrush-2.ttf) format("truetype");
   style: normal;
   display: swap;
 }
 @font-face {
   font-family: "nishiki-teki";
-  src: url(./nishiki-teki-2.ttf);
+  src: url(./nishiki-teki-2.ttf) format("truetype");
   style: normal;
   display: swap;
 }
 @font-face {
   font-family: "ZhiMangXing-Regular";
-  src: url(./ZhiMangXing-Regular.ttf);
+  src: url(./ZhiMangXing-Regular.ttf) format("truetype");
   style: normal;
   display: swap;
 }
